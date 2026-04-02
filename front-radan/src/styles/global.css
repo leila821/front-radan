@@ -1,0 +1,37 @@
+:root {
+  --font-primary: 'Roboto', sans-serif;
+  --font-heading: 'Roboto', sans-serif;
+  --font-logo: 'Playfair Display', serif;
+
+  --color-bg: #ffffff;
+  --color-white: #ffffff;
+  --color-text: #000000;
+  --color-text-meta: #9b9b9b;
+  --color-text-desc: #929292;
+  --color-accent: #eb0028;
+  --color-border: #e0e0e0;
+  --color-overlay: rgba(0, 0, 0, 0.55);
+
+  --container-width: 72.5rem;
+  --container-padding: 1.25rem;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.status-message {
+  padding: 3rem 0;
+  text-align: center;
+  color: var(--color-text-desc);
+}
